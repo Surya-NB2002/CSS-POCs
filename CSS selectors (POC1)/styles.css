@@ -1,0 +1,62 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* element selector */
+p {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* grouping selector */
+h2,h3,h4 {
+    font-variant: small-caps;
+}
+
+/* id selector */
+#container {
+    background-color: burlywood;
+}
+
+/* class selector */
+.c2 {
+    background-color: aqua;
+}
+
+/* descendant selector (space) */
+div p {
+    color:black;
+}
+
+/* child selector (>) */
+div>p {
+    background-color: yellow;
+}
+
+/* adjacent sibling selector (+) */
+div+p {
+    font-style: italic;
+}
+
+/* general sibling selector (~) */
+div~p {
+    font-weight: bold;
+}
+
+/* pseudo-class selector */
+button:hover {
+    background-color: aqua;
+}
+
+/* pseudo-element selector */
+p::first-letter {
+    font-size: xx-large;
+    color: blue;
+}
+
+/* attribute selector */
+a[target="_blank"] {
+    background-color: coral;
+}
